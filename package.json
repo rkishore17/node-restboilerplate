@@ -1,0 +1,31 @@
+{
+  "name": "node-restboilerplate",
+  "version": "1.0.0",
+  "description": "Creation of new rest-api endpoint using Typescript",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/app.js",
+    "dev": "tsc & nodemon api/app.ts"
+  },
+  "author": "kishore",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "express": "^4.18.1",
+    "module-alias": "^2.2.2",
+    "nodemon": "^2.0.16",
+    "reflect-metadata": "0.1.13",
+    "routing-controllers": "0.9.0",
+    "ts-node": "^10.8.1",
+    "tslib": "^2.4.0",
+    "typedi": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "typescript": "^4.7.3"
+  }
+}
